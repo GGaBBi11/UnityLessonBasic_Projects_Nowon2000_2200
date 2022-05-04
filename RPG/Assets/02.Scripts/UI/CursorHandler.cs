@@ -19,7 +19,7 @@ public class CursorHandler : MonoBehaviour
     private void Update()
     {
         // 마우스 왼쪽버튼
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
             // 발생할 이벤트에 대한 마우스 이벤트 데이터
             _pointerEventData = new PointerEventData(_eventSystem); // 현재 이벤트들에서 마우스 이벤트 데이터만 따로 생성
